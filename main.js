@@ -18,7 +18,9 @@ dateN.addEventListener("change",()=> {
     let pyearnow =parseInt(yearNow)
      calculateAge = pyearnow - Pyear
     
-     document.getElementById("calculate").innerHTML = "Su edad Actual es :"+calculateAge;
-});
+     let p = document.getElementById("calculate");
+     p.innerHTML = "Su edad Actual es :"+calculateAge;
+     p.style.color = "black";
+    });
 
 
