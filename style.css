@@ -1,0 +1,39 @@
+
+body{
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+h1{
+    color: blue;
+    font-size: 9vh;
+}
+h2{
+    color: blue;
+    font-size: 5vh;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid;
+    border-color: black;
+    height: 50vh;
+    width: 50vw;
+}
+input{
+    width: 10vw;
+    height: 10vh;
+    font-size: 3vh;
+    background-color: #d2d7df;
+}
+p{
+    color: red;
+    font-size: 5vh;
+}
